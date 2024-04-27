@@ -6,3 +6,63 @@ body {
 p {
     font-size: 16px;
 }
+
+header {
+    position: relative;
+}
+
+header::after {
+    content: '';
+    position: absolute;
+    bottom: 40px; /* Avstanden fra streken til headeren */
+    width: 100%;
+    height: 2px; /* Tykkelsen på streken */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Skyggeeffekten */
+}
+
+.topwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar {
+    display: flex;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none;
+}
+
+.menu li {
+    padding: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #0F5565;
+}
+
+.logo img {
+    width: 56px;
+}
+
+.logo {
+    text-align: center;
+    margin-right: 150px;
+    width: 200px;
+}
+
+.buttonheader, button a {
+    background-color: #0F5565;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    padding: 8px;
+    margin: 20px;
+}
