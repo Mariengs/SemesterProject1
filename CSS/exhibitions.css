@@ -67,3 +67,44 @@ header::after {
     padding: 8px;
     margin: 20px;
 }
+
+h1, p {
+    padding: 20px;
+    max-width: 500px;
+}
+
+b {
+    font-size: 16px;
+}
+
+h1 {
+    color: #0F5565;
+}
+
+img {
+    width: 400px;
+    padding-left: 10px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 300px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .container {
+        height: auto;
+    }
+    p {
+        font-size: 14px;
+    }
+    b {
+        font-size: 16px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+}
