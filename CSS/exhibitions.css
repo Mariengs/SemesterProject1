@@ -6,6 +6,9 @@ body {
 p {
     font-size: 16px;
 }
+h1, h2, b {
+    color: #0F5565;
+}
 
 header {
     position: relative;
@@ -107,4 +110,11 @@ img {
     h1 {
         font-size: 24px;
     }
+}
+
+footer {
+    border-top: 2px solid #0F5565;
+    padding-top: 40px;
+    height: 120px;
+    max-width: 100%;
 }
