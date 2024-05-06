@@ -75,12 +75,14 @@ header::after {
 
 .banner {
     position: relative;
+    width: auto;
     
 }
 
 .banner img {
-    max-width: 1200px;
+    max-width: 1660px;
 }
+
 
 .buttons {
     margin: 50px;

@@ -113,8 +113,10 @@ img {
 }
 
 footer {
+    position: relative;
     border-top: 2px solid #0F5565;
     padding-top: 40px;
     height: 120px;
     max-width: 100%;
+    
 }
