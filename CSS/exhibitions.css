@@ -5,9 +5,13 @@ body {
 
 p {
     font-size: 16px;
+    padding-left: 10px;
+    max-width: 500px;
 }
+
 h1, h2, b {
     color: #0F5565;
+    padding-left: 10px;
 }
 
 header {
@@ -17,7 +21,6 @@ header {
 header::after {
     content: '';
     position: absolute;
-    left: 0;
     bottom: 40px; /* Avstanden fra streken til headeren */
     width: 100%;
     height: 2px; /* Tykkelsen på streken */
@@ -55,7 +58,7 @@ header::after {
 
 .logo {
     text-align: center;
-    margin-right: 160px;
+    margin-right: 150px;
     width: 200px;
 }
 
@@ -69,19 +72,6 @@ header::after {
     border: none;
     padding: 8px;
     margin: 20px;
-}
-
-h1, p {
-    padding: 20px;
-    max-width: 500px;
-}
-
-b {
-    font-size: 16px;
-}
-
-h1 {
-    color: #0F5565;
 }
 
 img {
@@ -98,7 +88,7 @@ img {
 
 
 @media screen and (max-width: 768px) {
-    .container {
+    form {
         height: auto;
     }
     p {
@@ -110,13 +100,40 @@ img {
     h1 {
         font-size: 24px;
     }
-}
 
-footer {
-    position: relative;
-    border-top: 2px solid #0F5565;
-    padding-top: 40px;
-    height: 120px;
-    max-width: 100%;
-    
+    .topwrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 23px;
+    }
+
+    .logo {
+        width: 160px;
+        padding-left: 160px;
+        margin-top: -40px;
+        z-index: -1;
+    }
+
+    .buttonheader, .buttonheader a {
+        background-color: #0F5565;
+        text-decoration: none;
+        color: white;
+        font-size: 10px;
+        width: 150px;
+        border-radius: 10px;
+        border: none;
+        padding: 4px;
+        margin-bottom: 80px;
+        margin-top: -20px;
+
+    }
+
+    .formbutton {
+        max-width: 100%;
+    }
+
 }
