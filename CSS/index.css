@@ -73,20 +73,10 @@ header::after {
 }
 
 
-.banner {
-    position: relative;
-    width: auto;
-}
-
-.banner img {
-    max-width: 1660px;
-}
-
-
 .buttons {
     margin: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .button1, .button2, .button3 {
