@@ -21,11 +21,12 @@ header {
 header::after {
     content: '';
     position: absolute;
-    bottom: 40px; /* Avstanden fra streken til headeren */
+    bottom: 40px; 
     width: 100%;
-    height: 2px; /* Tykkelsen på streken */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Skyggeeffekten */
+    height: 2px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); 
 }
+
 
 .topwrapper {
     display: flex;
@@ -73,6 +74,7 @@ header::after {
     padding: 8px;
     margin: 20px;
 }
+
 
 img {
     width: 400px;
@@ -132,8 +134,12 @@ img {
 
     }
 
-    .formbutton {
-        max-width: 100%;
-    }
+}
 
+footer {
+    bottom: 0;
+}
+footer a {
+    text-decoration: none;
+    color: #0F5565;
 }
