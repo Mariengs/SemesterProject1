@@ -1,6 +1,6 @@
 # Semester Project 1 
 
-![image](https://github.com/Mariengs/portfolio1/blob/main/assets/rainydaysHTML.png)
+![image](https://github.com/Mariengs/portfolio1/blob/main/assets/semesterproject1.png)
 
 
 
