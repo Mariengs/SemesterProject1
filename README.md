@@ -1,6 +1,7 @@
 # Semester Project 1 
 
-![image](https://github.com/Mariengs/portfolio1/blob/main/assets/semesterproject1.png)
+
+<img src="https://github.com/Mariengs/portfolio1/blob/main/assets/semesterproject1.png" alt="Portfolio image" width="200" />
 
 
 
